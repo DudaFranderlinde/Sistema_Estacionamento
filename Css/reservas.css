@@ -9,7 +9,7 @@
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;  
+    justify-content: center; 
 }
 
 .titulo{
@@ -46,3 +46,31 @@
     color: white;
     border: none;
 }
+
+.dialogSucess {
+    border-radius: 2.5px 10px;
+    border: none;
+    justify-content: space-between;
+}
+
+.dialogSucess h2{
+    margin: 10px 0px;
+    font-size: smaller;
+    color: rgb(34, 144, 4);
+}
+
+.dialogSucess button h2:hover {
+    color: rgb(119, 0, 0);
+}
+
+.dialogSucess button {
+    align-items: end;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: rgb(34, 144, 4);
+    font-size: smaller;
+    background-color: white;
+}
+
+

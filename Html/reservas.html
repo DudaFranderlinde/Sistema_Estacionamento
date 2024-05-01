@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../Css/reservas.css">
     <link rel="stylesheet" href="../Css/nav.css">
     <title>Parking Car</title>
@@ -19,7 +19,7 @@
         </div>
     </nav>
     
-    <form class="form-card">
+    <form class="form-card" id="formReserva">
         <div class="titulo">
             <h2>Faça sua Reserva!</h2>
         </div>
@@ -32,8 +32,15 @@
                 <input type="text" placeholder="Modelo do veículo" id="veiculo">
                 <input type="text" placeholder="Cor do veículo" id="cor">
                 <input type="text" placeholder="Número da vaga de estacionamento" id="vaga">
-            <button>Reservar</button>
+            <button  id="buttonSave" type="submit">Reservar</button>
         </div>
     </form>
+    <dialog class="dialogSucess" close>
+        <button id="buttonCloseModal">
+            <h2>X</h2>
+        </button>
+        <h2>Cadastro realizado com sucesso!</h2>
+    </dialog>
+    <script src="../Javascript/reservas.js"></script>
 </body>
 </html>
