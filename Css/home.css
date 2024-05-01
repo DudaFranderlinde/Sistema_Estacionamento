@@ -1,0 +1,23 @@
+.agrupa-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-card {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 15px 15px 75px -45px rgba(147, 149, 163, 0.5);
+    margin: 20px;
+}
+
+.div-card h2 {
+    color: red;
+    margin-left: 20px;
+}
+
+
+.div-card p {
+    margin-left: 20px;
+    margin-top: 0px;
+}
