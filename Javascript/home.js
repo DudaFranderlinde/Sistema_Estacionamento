@@ -109,6 +109,7 @@ let buttonOcupadas = document.getElementById('ocupadas')
 let buttonDisponiveis = document.getElementById('disponiveis')
 let buttonTodas = document.getElementById('todas')
 
+criaCard(lista)
 buttonDisponiveis.onclick = filtroDisponiveis
 buttonTodas.onclick = todas
 buttonOcupadas.onclick = filtroOcupadas
