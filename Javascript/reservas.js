@@ -35,8 +35,8 @@ const submit = (event) => {
 }
 
 const closeModal = () => {
-    dialog.close()
+    dialog.close();
 }
 
-formReserva.onsubmit = submit
-buttonCloseModal.onclick = closeModal
+formReserva.onsubmit = submit;
+buttonCloseModal.onclick = closeModal;

@@ -3,6 +3,32 @@
     flex-wrap: wrap;
 }
 
+.section-filtre {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.section-filtre button{
+    border: none;
+    outline: none;
+    background-color: rgb(119, 0, 0);
+    border-radius: 5px;
+    height: 25px;
+    color: white;
+    font-size: medium;
+    width: 150px;
+}
+
+.section-filtre button:focus{
+    color: rgb(119, 0, 0);
+    border: 1px solid rgb(119, 0, 0);
+    background-color: white;
+}
+
+.section-filtre p{
+    color: rgb(119, 0, 0);
+}
+
 .div-card {
     background-color: white;
     border-radius: 10px;
