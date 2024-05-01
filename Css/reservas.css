@@ -50,25 +50,34 @@
 .dialogSucess {
     border-radius: 2.5px 10px;
     border: none;
-    justify-content: space-between;
 }
 
 .dialogSucess h2{
     margin: 10px 0px;
     font-size: smaller;
-    color: rgb(34, 144, 4);
+    color: rgb(34, 134, 104);
 }
 
 .dialogSucess button h2:hover {
     color: rgb(119, 0, 0);
 }
 
+.dialogSucess div{
+    width: 100px;
+    margin: 10px auto;
+}
+
+.dialogSucess img{
+    width: 100%;
+}
+
+
 .dialogSucess button {
     align-items: end;
     border: none;
     outline: none;
     border-radius: 50px;
-    color: rgb(34, 144, 4);
+    color: rgb(34, 134, 104);
     font-size: smaller;
     background-color: white;
 }
